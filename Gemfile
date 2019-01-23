@@ -3,7 +3,8 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.5.0'
 
-gem 'rails', github: "rails/rails", branch: "5-2-stable"
+# gem 'rails', github: "rails/rails", branch: "5-2-stable"
+gem "rails", github: "rails/rails"
 
 # Use sqlite3 as the database for Active Record
 gem 'pg'
@@ -29,7 +30,7 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
-gem 'actiontext', :git => "git@github.com:rails/actiontext.git", :branch => "archive", require: "action_text"
+# gem 'actiontext', :git => "git@github.com:rails/actiontext.git", :branch => "archive", require: "action_text"
 gem "image_processing", "~> 1.2" # for Active Storage variants
 
 # Use ActiveStorage variant
