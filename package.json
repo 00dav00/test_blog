@@ -2,8 +2,8 @@
   "name": "text_blog",
   "private": true,
   "dependencies": {
-    "@rails/webpacker": "3.5",
-    "actiontext": "https://github.com/rails/actiontext"
+    "@rails/webpacker": "^3.5.5",
+    "actiontext": "git://github.com/rails/actiontext.git#cfe4674"
   },
   "devDependencies": {
     "webpack-dev-server": "2.11.2"
