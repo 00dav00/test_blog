@@ -29,6 +29,9 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
+gem 'actiontext', :git => "git@github.com:rails/actiontext.git", :branch => "archive", require: "action_text"
+gem "image_processing", "~> 1.2" # for Active Storage variants
+
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
